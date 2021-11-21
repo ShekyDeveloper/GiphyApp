@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "giphyApp",
+    "slug": "giphyApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/giphyIcon.png",
+    "splash": {
+      "image": "./assets/giphy.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121212"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.shekydev.giphyApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
